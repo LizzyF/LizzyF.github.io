@@ -1,0 +1,33 @@
+html {
+	background-color: #99CCFF;
+}
+      
+nav {
+	position: fixed;
+    top: 0px
+    height: 200px;
+    background-color: #FFFF99;
+    display: inline-block;
+    font-size: 18px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+      
+a {
+    margin: 0px 10px 0px 10px;
+}
+      
+#content {
+    background-color: white;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 15px 350px 15px;
+}
+      
+.content-section {
+    margin: 150px 0px 450px 0px;
+    padding-top: 100px;
+}
