@@ -4,13 +4,13 @@ html {
       
 nav {
 	position: fixed;
-    top: 0px
+    top: 0px,
     height: 200px;
     background-color: #FFFF99;
     display: inline-block;
     font-size: 18px;
     width: 650px;
-    margin-left: auto;
+    margin-left: 342px;
     margin-right: auto;
     text-align: center;
 }
