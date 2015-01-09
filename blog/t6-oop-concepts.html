@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Variable Scope</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/default.css">
+  <link rel="stylesheet" type="text/css" href="styles/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Variable Scope</h1>
+  <h2></h2>
+  <h4>1/9/15</h4>
+
+  <section>
+    <p>
+      Local variables are the most common variables in Ruby.  There are no special symbols or syntax to signify a local variable.  An example would be: <code>name = "Joe"</code>.  These variables can only be used in the method they are defined in.
+    </p>
+      
+    <p>
+      Instance variables start with the <code>@</code> symbol.  These variables exist as long as the object it is associated with exists.  Instance variables keep track of the state of the object.
+    </p>
+    
+    <p>
+      Class variables begin with <code>@@</code>.  These variables are available to all instances of the class, and are created at the class level.
+    </p>
+
+     <p>
+      Global variables begin with <code>$</code>.  These variables are available throughout the application, but are used sparingly as these can cause problems later on.
+    </p>
+
+    <p>
+      Constants are signified by capitalizing all letters of the variable's name.  These variables store information that never changes.  If one tries to change the value assigned to the variable, Ruby will throw up a warning message.  
+    </p>
+  </section>
+</main>
+
