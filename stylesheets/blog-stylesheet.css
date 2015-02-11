@@ -1,9 +1,16 @@
-html {
-  background-color: #99ccff;
+h1 {
+  text-align: center;
 }
 
-h1{
-  color: #000066;
-  font-family: Arial Black, sans-serif;
-  font-size: 65px;
+h2 {
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  text-align: center;
+}
+
+h4 {
+  text-align: right;
 }
