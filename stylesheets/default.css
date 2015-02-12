@@ -1,7 +1,22 @@
-head {
-	background-color: white;
+body {
+  font-family: Open Sans, Tahoma;
 }
 
-footer {
-	font-family: Times;
+header {
+  background-color: #990099;
+  text-align: center;
 }
+
+nav {
+  /*background-color: #990099;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;*/
+}
+
+a {
+  text-decoration: none;
+  color: #FFEBFF;
+}
+
+
