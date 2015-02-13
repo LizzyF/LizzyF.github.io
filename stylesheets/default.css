@@ -1,22 +1,57 @@
 body {
-  font-family: Open Sans, Tahoma;
+  background: #F5EBFF;
+  font-family: Tahoma, sans-serif;
 }
 
 header {
-  background-color: #990099;
+  margin: 0;
   text-align: center;
 }
 
-nav {
-  /*background-color: #990099;
+h1 {
+  font-family: Tahoma;
+  margin: 1em 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+nav ul li {
   display: inline-block;
-  list-style: none;
-  text-decoration: none;*/
+  list-style-type: none;
+  margin: 0 1.5em 0 1.5em;  
 }
 
 a {
   text-decoration: none;
-  color: #FFEBFF;
+  color: #333333;
 }
 
+a:hover {
+  color: white;
+}
 
+sidebar {
+  float: right;
+  clear: both;
+  width: 22%;
+}
+
+section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+article {
+  color: #333333;
+}
+
+.line {
+  border-top: 2px solid #333333;
+}
