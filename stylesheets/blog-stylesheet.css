@@ -1,4 +1,10 @@
+html { 
+  background: #F5EBFF;
+  font-family: Tahoma; 
+}
+
 h1 {
+  font-size: 2.5em;
   text-align: center;
 }
 
@@ -6,11 +12,12 @@ h2 {
   text-align: center;
 }
 
-section {
-  border: 1px solid black;
+h4 {
   text-align: center;
 }
 
-h4 {
-  text-align: right;
+section {
+  max-width: 65%;
+  margin: auto;
 }
+
