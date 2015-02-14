@@ -12,14 +12,19 @@
   <h4>02/13/15</h4>
 
   <section>
+    <h3>Static</h3>
+    <p>
+      An element with static positioning has not been positioned yet.  This is the default value for all elements, until one of the following positions is applied.  
+    </p>
+
     <h3>Relative</h3>
     <p>
-      Setting an element to relative positioning will not affect the element until changes are made to its positioning attributes: top, bottom, left, right.  Once a change is made to a position attribute, such as <code>left: 20px;</code>, the element will move 20 pixels to the right from where it would have normally been.  A relatively positioned element is still part of the page flow.
+      Setting an element to relative positioning will not affect the element until changes are made to its positioning attributes: top, bottom, left, right.  Once a change is made to a position attribute, such as <code>right: 20px;</code>, the element will move 20 pixels to the right from where it would have normally been.  A relatively positioned element is still part of the page flow, and leaves a gap for where the element would have been had it not been repositioned.
     </p>
     
     <h3>Absolute</h3>  
     <p>
-      With absolute positioning, when the positioning attributes are set, the element will be positioned in relation to the first parent element that doesn't have static positioning.  If there is none, then the element is positioned relative to <html> (the page itself).  An abolutely positioned element is not part of the page flow, meaning it doesn't affect other elements and isn't affected by other elements. 
+      With absolute positioning, when the positioning attributes are set, the element will be positioned in relation to the first parent element that doesn't have static positioning.  If there is none, then the element is positioned relative to the page itself.  An absolutely positioned element is not part of the page flow, meaning it doesn't affect other elements and isn't affected by other elements.  As a result, absolutely positioned elements can overlap other elements.
     </p>
     
     <h3>Fixed</h3>
