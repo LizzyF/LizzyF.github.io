@@ -1,33 +1,18 @@
-html {
-	background-color: #99CCFF;
+h1 {
+  height: 3em;
+  background: green;
+  color: white;
+  font-family: sans-serif;
 }
-      
-nav {
-	position: fixed;
-    top: 0px,
-    height: 200px;
-    background-color: #FFFF99;
-    display: inline-block;
-    font-size: 18px;
-    width: 650px;
-    margin-left: 342px;
-    margin-right: auto;
-    text-align: center;
+
+h2 {
+  font-family: sans-serif;
 }
-      
-a {
-    margin: 0px 10px 0px 10px;
+
+.header {
+
 }
-      
-#content {
-    background-color: white;
-    width: 620px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px 15px 350px 15px;
-}
-      
-.content-section {
-    margin: 150px 0px 450px 0px;
-    padding-top: 100px;
+
+.content {
+
 }
