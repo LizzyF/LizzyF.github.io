@@ -9,15 +9,15 @@
 <main>
   <h1>Ruby Classes</h1>
   <h2></h2>
-  <h4>12/28/14</h4>
+  <h4>03/05/15</h4>
 
   <section>
     <p>
-      Classes define the attributes and behaviors of objects.  To define a class, one uses the <code>class</code> keyword.  The class name should be capitalized.  A class is like an outline of what an object's characteristics are, and what it can do.  These two things are the class's state and behavior.  When an object is created, it is instantiated, and is an instance of the class.  So if there is an <code>ice cream</code> class, the flavor <code>chocolate</code> would be an instance of that class.
+      Classes define the attributes and behaviors of objects.  To define a class, one uses the <code>class</code> keyword.  The class name should be capitalized.  A class is like an outline of what an object's characteristics are, and what it can do.  These two things are the class's state and behavior.  When an object is created, it is instantiated, and is an instance of the class.  So if there is a <code>Dog</code> class, creating object <code>Dog.new</code> would be an instance of that class.
     </p>
       
     <p>
-      An instance variable is represented by the @ symbol before the name, and keeps track of the object's state.  The instance variable exists as long as the object it is tied to exists.  An instance method only applies to one particular instance of a class.  
+      An instance variable is represented by the @ symbol before the name, and keeps track of the object's state.  The instance variable exists as long as the object it is tied to exists.  An instance variable can be created when an object is first instantiated using the initialize method.  Say we want the <code>Dog</code> class to have <code>@breed</code> and <code>@gender</code> instance variables.  When a new instance of <code>Dog</code> is created, it has knowledge of its attributes <code>@breed</code> and <code>@gender</code>.  An instance method only applies to one particular instance of a class.  So continuing with our example, lets say our newly formed <code>Dog</code> is a show dog, and we want to give it a method of <code>prance</code>.  We would define that new method <code>prance</code>, and return the string <code>"Strutting"</code>.  Viola!  We have an instance method for our show dog.
     </p>
     
     <p>
